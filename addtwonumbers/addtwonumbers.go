@@ -39,11 +39,7 @@ func (l *listNode) String() string {
 
 func newListNode(n int64) *listNode {
 	str := strconv.FormatInt(n, 10)
-	digit, err := strconv.ParseInt(str[0:1], 10, 64)
-	if err != nil {
-		return nil
-	}
-	node := &listNode{val: int(digit)}
+	node := &listNode{val: int(str[0] - '0')}
 	previous := node
 	for _, c := range str[1:] {
 		current := &listNode{}
@@ -63,33 +59,18 @@ func addTwoNumbers(n, m *listNode) *listNode {
 	sum := &listNode{}
 	current := sum
 	for {
-		current.val = (n.val + m.val + carry) % 10
-		carry = (n.val + m.val) / 10
-		n = n.next
-		m = m.next
-		if n == nil || m == nil {
-			break
+		current.val = carry
+		if n != nil {
+			current.val += n.val
+			n = n.next
 		}
-		current.next = &listNode{}
-		current = current.next
-	}
-	if n == nil && m == nil {
-		return sum
-	}
-	var remain *listNode
-	if n == nil {
-		remain = m
-	}
-	if m == nil {
-		remain = n
-	}
-	current.next = &listNode{}
-	current = current.next
-	for {
-		current.val = (remain.val + carry) % 10
-		carry = (remain.val + carry) / 10
-		remain = remain.next
-		if remain == nil {
+		if m != nil {
+			current.val += m.val
+			m = m.next
+		}
+		carry = current.val / 10
+		current.val = current.val % 10
+		if n == nil && m == nil {
 			break
 		}
 		current.next = &listNode{}
