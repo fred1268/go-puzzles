@@ -1,4 +1,4 @@
-package longestpath
+package longeststring
 
 type Board [][]int
 

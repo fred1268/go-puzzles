@@ -1,4 +1,4 @@
-package longestpath
+package longeststring
 
 import (
 	"testing"
