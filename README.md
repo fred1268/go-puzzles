@@ -8,3 +8,7 @@ In an 2D array of integers, find the longest string of consecutive integers with
 ## :dart: Sudoku
 
 Find a solution to a Sudoku board. More on [Sudoku](https://www.sudoku-solutions.com).
+
+## :dart: Add two numbers
+
+[Add two numbers (leetcode)](https://leetcode.com/problems/add-two-numbers/description/).
