@@ -2,7 +2,7 @@ package addtwonumbers
 
 import "testing"
 
-func TestSolve(t *testing.T) {
+func TestAddTwoNumbers(t *testing.T) {
 	testData := []struct {
 		name string
 		val1 *listNode
