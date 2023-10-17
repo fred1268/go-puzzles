@@ -47,7 +47,7 @@ func TestMergeArray(t *testing.T) {
 	for _, tt := range testData {
 		tt := tt
 		t.Run(tt.name, func(t *testing.T) {
-			// t.Parallel()
+			t.Parallel()
 			result1, result2 := mergeArrays(tt.array1, tt.array2)
 			if !equals(tt.expected1, result1) || !equals(tt.expected2, result2) {
 				t.Errorf("wanted: '%v', '%v', got '%v', '%v'", tt.expected1, tt.expected2, result1, result2)

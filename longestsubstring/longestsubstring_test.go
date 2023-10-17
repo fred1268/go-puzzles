@@ -37,7 +37,7 @@ func TestLongestSubstring(t *testing.T) {
 	for _, tt := range testData {
 		tt := tt
 		t.Run(tt.name, func(t *testing.T) {
-			// t.Parallel()
+			t.Parallel()
 			_, result := longestSubstring(tt.str)
 			if tt.expected != result {
 				t.Errorf("wanted: '%s', got '%s'", tt.expected, result)
