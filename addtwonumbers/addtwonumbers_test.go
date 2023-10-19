@@ -3,6 +3,7 @@ package addtwonumbers
 import "testing"
 
 func TestAddTwoNumbers(t *testing.T) {
+	t.Parallel()
 	testData := []struct {
 		name string
 		val1 *listNode

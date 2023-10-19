@@ -33,6 +33,7 @@ func TestDisplay(t *testing.T) {
 }
 
 func TestSolve(t *testing.T) {
+	t.Parallel()
 	testData := []struct {
 		name   string
 		board  Board

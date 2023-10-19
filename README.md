@@ -22,3 +22,7 @@ Find a solution to a Sudoku board. More on [Sudoku](https://www.sudoku-solutions
 ## :dart: Merge without extra space
 
 [Merge without extra space (GeeksForGeeks)](https://practice.geeksforgeeks.org/problems/merge-two-sorted-arrays-1587115620/1)
+
+## :dart: Zigzag conversion
+
+[Zigzag conversion (leetcode)](https://leetcode.com/problems/zigzag-conversion/)

@@ -5,6 +5,7 @@ import (
 )
 
 func TestSolve(t *testing.T) {
+	t.Parallel()
 	testData := []struct {
 		name   string
 		puzzle Board

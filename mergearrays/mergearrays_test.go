@@ -15,6 +15,7 @@ func equals(array1, array2 []int) bool {
 }
 
 func TestMergeArray(t *testing.T) {
+	t.Parallel()
 	testData := []struct {
 		name      string
 		array1    []int

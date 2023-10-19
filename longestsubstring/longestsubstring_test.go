@@ -3,6 +3,7 @@ package longestsubstring
 import "testing"
 
 func TestLongestSubstring(t *testing.T) {
+	t.Parallel()
 	testData := []struct {
 		name     string
 		str      string
