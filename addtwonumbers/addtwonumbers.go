@@ -10,13 +10,13 @@ type listNode struct {
 func (l *listNode) equals(other *listNode) bool {
 	first := l
 	for {
+		if first.val != other.val {
+			return false
+		}
 		if first.next == nil && other.next == nil {
 			return true
 		}
 		if first.next == nil || other.next == nil {
-			return false
-		}
-		if first.val != other.val {
 			return false
 		}
 		first = first.next
