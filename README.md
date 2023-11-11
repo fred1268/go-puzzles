@@ -11,12 +11,12 @@ Find a solution to a Sudoku board. More on [Sudoku](https://www.sudoku-solutions
 
 ## :dart: Add two numbers
 
-[Add two numbers (leetcode)](https://leetcode.com/problems/add-two-numbers/).
+[Add two numbers (leetcode)](https://leetcode.com/problems/add-two-numbers).
 
 
 ## :dart: Longest substring without repeating characters
 
-[Longest substring without repeating characters (leetcode)](https://leetcode.com/problems/longest-substring-without-repeating-characters/)
+[Longest substring without repeating characters (leetcode)](https://leetcode.com/problems/longest-substring-without-repeating-characters)
 
 
 ## :dart: Merge without extra space
@@ -25,4 +25,8 @@ Find a solution to a Sudoku board. More on [Sudoku](https://www.sudoku-solutions
 
 ## :dart: Zigzag conversion
 
-[Zigzag conversion (leetcode)](https://leetcode.com/problems/zigzag-conversion/)
+[Zigzag conversion (leetcode)](https://leetcode.com/problems/zigzag-conversion)
+
+## :dart: Remove Duplicated
+
+[Remove duplicates (leetcode)](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii)
