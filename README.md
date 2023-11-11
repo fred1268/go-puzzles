@@ -27,6 +27,6 @@ Find a solution to a Sudoku board. More on [Sudoku](https://www.sudoku-solutions
 
 [Zigzag conversion (leetcode)](https://leetcode.com/problems/zigzag-conversion)
 
-## :dart: Remove Duplicated
+## :dart: Remove Duplicates
 
 [Remove duplicates (leetcode)](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii)
