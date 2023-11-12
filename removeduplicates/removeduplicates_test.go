@@ -41,9 +41,9 @@ func TestRemoveDuplicates(t *testing.T) {
 		tt := tt
 		t.Run(tt.name, func(t *testing.T) {
 			t.Parallel()
-			result, _ := removeDuplicates(tt.array)
-			if !equals(tt.expected, result) {
-				t.Errorf("wanted: '%v', got '%v'", tt.expected, result)
+			n := removeDuplicates(tt.array)
+			if !equals(tt.expected, tt.array) {
+				t.Errorf("wanted: '%v', got '%v' (n=%d)", tt.expected, tt.array, n)
 			}
 		})
 	}
