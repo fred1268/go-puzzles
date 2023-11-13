@@ -1,6 +1,6 @@
 # :game_die: PUZZLES :game_die:
 
-## :dart: Longest String
+## :dart: Longest string
 
 In an 2D array of integers, find the longest string of consecutive integers without backtracking
 (only lateral movements allowed, diagonals not allowed).
@@ -27,6 +27,10 @@ Find a solution to a Sudoku board. More on [Sudoku](https://www.sudoku-solutions
 
 [Zigzag conversion (leetcode)](https://leetcode.com/problems/zigzag-conversion)
 
-## :dart: Remove Duplicates
+## :dart: Remove duplicates
 
 [Remove duplicates (leetcode)](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii)
+
+## :dart: Longest palindromic substring
+
+[Longest palindromic substring (leetcode)](https://leetcode.com/problems/longest-palindromic-substring)
